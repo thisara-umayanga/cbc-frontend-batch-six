@@ -8,14 +8,14 @@ export default function TestPage(){
 
 
     function increment(){
-        setCount(6);
+        setCount(count +1);
     }
 
     function decrement(){
-        setCount(7);
+        setCount(count -1);
     }
-    
-    setCount(5)
+    //DONOT DO FOLLOWING. The reason is explained in the session
+    //setCount(5)
 
     return(
         <div className="w-full h-screen bg-amber-200 flex justify-center items-center">
